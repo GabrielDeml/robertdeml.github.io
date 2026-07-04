@@ -5,7 +5,7 @@
  * Bump MAJOR or MINOR manually for significant releases.
  * ============================================================ */
 
-export const VERSION = "1.0.18";
+export const VERSION = "1.0.19";
 
 function showToast(msg: string) {
   const existing = document.getElementById("toast");
