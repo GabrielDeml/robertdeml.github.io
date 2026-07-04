@@ -63,10 +63,8 @@
       <div class="menu-level">
         <button id="elevationBtn" title="Elevation profile"><span data-lucide="mountain"></span></button>
         <button id="replayBtn" title="Replay trail">
-          <div class="icon-stack">
-            <span data-lucide="footprints" width="16" height="16"></span>
-            <span data-lucide="play" class="overlay" width="12" height="12"></span>
-          </div>
+          <span data-lucide="footprints" width="16" height="16" style="vertical-align:middle"></span>
+          <span data-lucide="play" width="12" height="12" fill="currentColor" style="vertical-align:middle;margin-left:1px"></span>
         </button>
         <button id="pathStyleBtn" title="Circles only">
           <div class="icon-stack">
@@ -79,8 +77,8 @@
         </button>
         <button id="clearFpBtn" title="Clear trail">
           <div class="icon-stack">
-            <span data-lucide="footprints" width="16" height="16"></span>
-            <span data-lucide="ban" class="overlay"></span>
+            <span data-lucide="ban" width="24" height="24"></span>
+            <span data-lucide="footprints" width="14" height="14" class="overlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)"></span>
           </div>
         </button>
       </div>
@@ -122,18 +120,18 @@
       <h2>How to Use HikeNow</h2>
       <div class="info-content">
         <p><span data-lucide="camera" width="16" height="16" style="vertical-align:middle"></span> <strong>Camera</strong> — Overlay a photo as the map background. Tap anywhere to place a pin.</p>
-        <p><span data-lucide="map" width="16" height="16" style="vertical-align:middle"></span> <strong>Map Mode</strong> — Enables pin placement anywhere, even without GPS or a photo.</p>
+        <p><span data-lucide="map" width="16" height="16" style="vertical-align:middle"></span> <strong>Map Mode</strong> — Enables pin placement on the map. Requires a photo and GPS to be active.</p>
         <p><span data-lucide="satellite" width="16" height="16" style="vertical-align:middle"></span> <strong>GPS</strong> — Track your position in real time. Footprints are left automatically along your path.</p>
         <p><span data-lucide="rotate-ccw" width="16" height="16" style="vertical-align:middle"></span> <strong>Rotate</strong> — Rotate the map image 90° counter-clockwise.</p>
         <p><span data-lucide="mountain" width="16" height="16" style="vertical-align:middle"></span> <strong>Elevation</strong> — Show/hide the elevation profile of your trail.</p>
-        <p><span data-lucide="footprints" width="16" height="16" style="vertical-align:middle"></span> <strong>Replay</strong> — Animate your trail from start to finish.</p>
+        <p><span data-lucide="footprints" width="16" height="16" style="vertical-align:middle"></span><span data-lucide="play" width="12" height="12" fill="currentColor" style="vertical-align:middle;margin-left:1px"></span> <strong>Replay</strong> — Animate your trail from start to finish.</p>
         <p><span data-lucide="route" width="16" height="16" style="vertical-align:middle"></span> <strong>Path Style</strong> — Cycle between circle footprints, a line, or both.</p>
         <p><span data-lucide="ban" width="16" height="16" style="vertical-align:middle"></span> <strong>Clear Trail</strong> — Erase all footprints while keeping your reference pins.</p>
         <p><span data-lucide="ruler" width="16" height="16" style="vertical-align:middle"></span> <strong>Distance</strong> — Click to toggle between metric (m/km) and imperial (ft/mi).</p>
         <p><span data-lucide="map-pin" width="16" height="16" style="vertical-align:middle"></span> <strong>Pins</strong> — Click a placed pin to show its toolbar. Use arrow keys to nudge or N/S/E/W to adjust by 1 meter. Copy coordinates or delete the pin.</p>
         <p><span data-lucide="list-checks" width="16" height="16" style="vertical-align:middle"></span> <strong>10 Essentials</strong> — A handy checklist of hiking essentials.</p>
         <p><span data-lucide="refresh-cw" width="16" height="16" style="vertical-align:middle"></span> <strong>Reload</strong> — Check for app updates and reload if a newer version is available.</p>
-        <p><span data-lucide="bug" width="16" height="16" style="vertical-align:middle"></span> <strong>Debug</strong> — Manually enter GPS coordinates for testing without a live signal.</p>
+        <p style="display:none"><span data-lucide="bug" width="16" height="16" style="vertical-align:middle"></span> <strong>Debug</strong> — Manually enter GPS coordinates for testing without a live signal.</p>
         <p>
           <strong>💡 Tip</strong> — Place at least two reference pins on features you recognize (trail junctions,
           landmarks) to enable GPS-to-pixel mapping and automatic footprint tracking.

@@ -229,7 +229,9 @@ button:disabled:hover {
 }
 .icon-stack .overlay {
   position: absolute;
-  opacity: 0.85;
+  bottom: -2px;
+  right: -2px;
+  opacity: 0.9;
 }
 .info-overlay {
   display: none;
