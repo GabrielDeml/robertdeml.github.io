@@ -36,6 +36,20 @@ npm run watch
 
 Rebuilds on file changes.
 
+## Android app (TWA)
+
+```
+npm i -g @bubblewrap/cli
+bubblewrap init --manifest="https://robertdeml.github.io/manifest.json"
+bubblewrap build
+```
+
+Use package name `io.github.robertdeml.hikenow` to match `web/.well-known/assetlinks.json`.
+
+`bubblewrap build` prints the signing key's SHA256 fingerprint (or get it later with
+`keytool -printcert -jarfile app-release-signed.apk`). Put it in
+`web/.well-known/assetlinks.json` and deploy — without it the app shows a browser URL bar.
+
 
 # TODOs
 

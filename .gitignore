@@ -1,2 +1,23 @@
 node_modules/
 dist/
+.DS_Store
+
+# Android/TWA build artifacts (bubblewrap) — never commit the signing keystore
+*.keystore
+*.apk
+*.aab
+*.idsig
+twa-manifest.json
+manifest-checksum.txt
+store_icon.png
+
+# Bubblewrap-generated Android project (bubblewrap init/build run in repo root)
+.gradle/
+app/
+build/
+build.gradle
+gradle/
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle

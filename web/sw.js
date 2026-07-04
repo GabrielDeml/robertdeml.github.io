@@ -1,7 +1,8 @@
-const CACHE = "hikenow-v2";
+const CACHE = "hikenow-v3";
 const ASSETS = [
   "/",
   "index.html",
+  "style.css",
   "app.js",
   "state.js",
   "transform.js",
@@ -15,6 +16,9 @@ const ASSETS = [
   "manifest.json",
   "icon-192.svg",
   "icon-512.svg",
+  "icon-192.png",
+  "icon-512.png",
+  "icon-512-maskable.png",
 ];
 const TIMEOUT = 5000;
 
